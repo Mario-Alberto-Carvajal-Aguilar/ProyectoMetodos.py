@@ -3,7 +3,7 @@ import math
 contador = 0
 while contador != 5:
     print("Menu")
-    print("1.- Bisecció")
+    print("1.- Bisección")
     print("2.- Newton")
     print("3.- Secante")
     print("4.- G(x)")
@@ -34,7 +34,7 @@ while contador != 5:
                     error = error*(-1)
                 i += 1
                 print(i, "  xi={:.4f}".format(xi), "  xs={:.4f}".format(xs), "xr={:.4f}".format(xr),
-                      "fx(xi)={:.4f}".format(fxi), "fx(xr)={:.4f}".format(fxr), "comp={:.4f}".format(comp),
+                      "fx(xi)={:.4f}".format(fxi), "fx(xr)={:.4f}".format(fxr), "f(xi=*f(xr)={:.4f}".format(comp),
                       "  Error V={:.4f}".format(error))
                 if comp < 0:
                     xs = xr
